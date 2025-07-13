@@ -1,0 +1,10 @@
+[
+  {
+    "id": 1,
+    "name": "Pilot Startup Ltd",
+    "description": "Demo organization for pilot",
+    "industry": "Fintech",
+    "country": "Nigeria",
+    "registration_number": "RC123456"
+  }
+]
