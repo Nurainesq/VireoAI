@@ -1,0 +1,12 @@
+[
+  {
+    "id": 1,
+    "name": "Service Agreement.pdf",
+    "file_type": "PDF",
+    "file_path": "/docs/service_agreement.pdf",
+    "category": "legal",
+    "status": "active",
+    "organization_id": 1,
+    "uploaded_by": 1
+  }
+]
