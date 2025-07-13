@@ -38,9 +38,9 @@ jobs:
         run: |
           cd frontend
           npm install
-      - name: Lint
+      - name: Lint frontend
         run: |
           cd frontend
-          npm run lint
+          npx eslint src --ext .js,.jsx
       - name: Run tests
         run: echo "Add frontend tests here"
