@@ -34,14 +34,15 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '18'
-      - name: Install dependencies
-        run: |
-          cd frontend
-          npm install
-      - name: Lint frontend
-        run: |
-          cd frontend
-          chmod +x ./node_modules/.bin/eslint
-          npx eslint src --ext .js,.jsx
-      - name: Run tests
-        run: echo "Add frontend tests here"
+      - name: Install frontend dependencies
+  run: |
+    cd frontend
+    npm install
+
+- name: Lint frontend
+  run: |
+    cd frontend
+    npx eslint src --ext .js,.jsx
+
+- name: Run frontend tests
+  run: echo "Add frontend tests here"
