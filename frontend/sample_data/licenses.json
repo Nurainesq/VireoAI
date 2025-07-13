@@ -1,0 +1,12 @@
+[
+  {
+    "id": 1,
+    "name": "Business Operating License",
+    "type": "Operating",
+    "issuer": "City of Lagos",
+    "issueDate": "2023-01-15",
+    "expiryDate": "2024-01-15",
+    "status": "expired",
+    "organization": 1
+  }
+]
